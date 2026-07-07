@@ -6,7 +6,38 @@
     --vlv-lighter-black: #090805;
 }
 
+@font-face {
+    font-family: 'vive-la-vie';
+    src: url(ViveLaVieV1-Regular.ttf);
+}
+
+header {
+    background-color: var(--vlv-lighter-black);
+}
+
 body {
+    /* display: flex; */
     background-color: var(--vlv-black);
     color: var(--vlv-gold);
+    /* align-items: center; */
+    text-align: center;
+    font-family: vive-la-vie;
+    font-size: 1.5rem;
+}
+
+section {
+    margin-top: 50px;
+    margin-bottom: 25%;
+    /* max-width: fit-content; */
+    scroll-margin-top: 200px;
+}
+
+input {
+    background-color: var(--vlv-darkbrown);
+    accent-color: var(--vlv-gold);
+    color: aliceblue;
+}
+
+a {
+    color: #a89468;
 }
