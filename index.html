@@ -26,15 +26,29 @@
     </header>
 
     <main>
+        A stylised 'brush' font, supposed to be based on Coldplay's famous album.
         Lorem ipsum dolor sit amet, adispiscing ingkang sinuwun alit.
         
-        <h2><a href="Viva-La-Vie-Font/ViveLaVieV1-Regular.otf" download="Viva-La-Vie-Font/ViveLaVieV1-Regular.otf">DOWNLOAD</a></h2>
+        <h2><a href="Viva-La-Vie-Font/ViveLaVieV1-Regular.otf" download="Viva-La-Vie-Font/ViveLaVieV1-Regular.otf">DOWNLOAD (V1)</a></h2>
 
         <section>
-            Test the font here:
-            <input type="text" id="font-test-input">
+            <form id="font-preview">
+                <label for="font-text-input">test the font here:</label>
+                <input type="text" id="font-text-input" placeholder="try: Viva la Vida?">
+                
+                <output id="font-text-output" name="font-text-preview" for="font-text-input"></output>
+            </form>
+            <script>
+                const fontTextInput = document.getElementById('font-text-input');
+                const fontTextOutput = document.getElementById('font-text-output');
 
-            <output name="font-preview" for="font-test-input"></output>
+                fontTextInput.addEventListener('input', (event) => {
+                    const currentText = event.target.textContent;
+                    
+                    fontTextOutput.textContent = currentText;
+                });
+
+            </script>
         </section>
     
     </main>
@@ -43,8 +57,6 @@
         &copy; 2026 HENRY WAUZIVUFF
     </footer>
 
-    <script>
-
-    </script>
+    
 </body>
 </html>
