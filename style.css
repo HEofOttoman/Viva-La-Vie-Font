@@ -11,18 +11,30 @@
     src: url(ViveLaVieV1-Regular.ttf);
 }
 
+.victor-mono-body {
+  font-family: "Victor Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
 header {
     background-color: var(--vlv-lighter-black);
 }
 
 body {
     /* display: flex; */
+    /* flex-direction: column; */
     background-color: var(--vlv-black);
     color: var(--vlv-gold);
-    /* align-items: center; */
+    align-items: center;
     text-align: center;
     font-family: vive-la-vie;
     font-size: 1.5rem;
+}
+
+footer {
+    margin-top: auto;
 }
 
 section {
