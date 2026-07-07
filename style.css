@@ -1,0 +1,12 @@
+:root {
+    /* # Viva La Vida Palette */
+    --vlv-gold: #907B4C;
+    --vlv-black: #020100;
+    --vlv-darkbrown: #0E0800;
+    --vlv-lighter-black: #090805;
+}
+
+body {
+    background-color: var(--vlv-black);
+    color: var(--vlv-gold);
+}
