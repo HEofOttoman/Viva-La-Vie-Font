@@ -1,6 +1,6 @@
 # Vive La Vie Font
-![Preview](assets/Fontpreview.png)
 ## Download [Here](https://heofottoman.github.io/Viva-La-Vie-Font/)
+![Preview](assets/Fontpreview.png)
 
 A (poorly-made) font, based on the album covers of the Coldplay album 'Viva La Vida'. This repository contains both the font and source code for it's website.
 
