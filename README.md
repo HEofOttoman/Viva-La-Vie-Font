@@ -2,7 +2,7 @@
 ![Preview](assets/Fontpreview.png)
 ## Download [Here](https://heofottoman.github.io/Viva-La-Vie-Font/)
 
-A (poorly-made) font, based on the album covers for the Coldplay album 'Viva La Vida'. This repository contains both the font and source code for it's website.
+A (poorly-made) font, based on the album covers of the Coldplay album 'Viva La Vida'. This repository contains both the font and source code for it's website.
 
 ![AllGlyphs](assets/AllGlyphs.png)
 ![Website View](assets/websiteview.png)
@@ -13,4 +13,4 @@ A (poorly-made) font, based on the album covers for the Coldplay album 'Viva La 
 
 Made for Hack Club's [Typeface](https://typeface.hackclub.com) program.
 
-![88x31](assets/henryw88x31.png)
+![88x31](https://cdn.hackclub.com/019f3f5e-9923-78f7-bf03-92ee071c22df/henryw88x31.png)
