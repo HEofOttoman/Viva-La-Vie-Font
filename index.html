@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
         <link rel="stylesheet" href="style.css" />
         <title>Vive La Vie</title>
-        <link rel="icon" type="image/png" href="">
+        <link rel="icon" type="image/png" href="assets/henryw88x31.png">
 
         <meta property="og:title" content="Viva La Vie" />
         <meta property="og:description" content="Stylised font based on Coldplay's album." />
@@ -26,6 +26,7 @@
     </header>
 
     <main>
+        <section>
         A stylised hand-brushed script font loosely based on the famous Coldplay album.
 
         <h2><a target="_blank" 
@@ -33,9 +34,14 @@
             download="V1-ViveLaVie-Regular.zip">DOWNLOAD (V1)
         </a></h2>
 
+        <h3><a target="_blank" 
+            href="https://github.com/HEofOttoman/Viva-La-Vie-Font/">REPOSITORY
+        </a></h2>
+        </section>
+
         <section>
-            <h3 contenteditable="plaintext-only">TRY WRITING SOMETHING! (CLICK ME)</click></h3>
-            <p contenteditable="plaintext-only">THIS IS NORMAL TEXT</p>
+            <h3 contenteditable="plaintext-only">TRY WRITING SOMETHING IN THIS HEADER! (CLICK ME)</click></h3>
+            <p contenteditable="plaintext-only">THIS IS NORMAL TEXT (CLICK ME TOO!)</p>
         </section>
     
     </main>
@@ -44,7 +50,7 @@
     <div id="starfield"></div>
     <script>
         const field = document.getElementById('starfield');
-        for (let i = 0; i < 130; i++) {
+        for (let i = 0; i < 200; i++) {
             const star = document.createElement('div');
             star.className = 'star';
             const size = Math.random() < 0.8 ? Math.random() * 1.5 + 0.5 : Math.random() * 2.5 + 1;

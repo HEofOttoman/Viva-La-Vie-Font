@@ -62,9 +62,14 @@ footer {
 section {
     margin-top: 50px;
     margin-bottom: 25%;
-    /* max-width: fit-content; */
+    max-width: fit-content;
     scroll-margin-top: 200px;
 
+    width: min(100%, 750px);
+
+    margin: 4rem auto;
+
+    padding: 0 1rem;
 }
 
 input {
