@@ -40,11 +40,28 @@
     
     </main>
 
+    <!-- Thanks jaxstellar (modified from max's site) -->
+    <div id="starfield"></div>
+    <script>
+        const field = document.getElementById('starfield');
+        for (let i = 0; i < 130; i++) {
+            const star = document.createElement('div');
+            star.className = 'star';
+            const size = Math.random() < 0.8 ? Math.random() * 1.5 + 0.5 : Math.random() * 2.5 + 1;
+            star.style.cssText = `
+                width:${size}px; height:${size}px; left:${Math.random()*100}%; top:${Math.random()*100}%; --dur:${2.5 + Math.random()*4}s; 
+                --delay:${Math.random()*5}s; --bright:${0.3 + Math.random()*0.6};
+            `;
+            if (Math.random() < 0.08) { star.style.background = '#907B4C' };
+            field.appendChild(star);
+        }
+
+    </script>
+
     <footer>
         <img src="https://cdn.hackclub.com/019f3f5e-9923-78f7-bf03-92ee071c22df/henryw88x31.png" alt="Henry's 88x31">
         &copy; 2026 HENRY WAUZIVUFF
     </footer>
 
-    
 </body>
 </html>
