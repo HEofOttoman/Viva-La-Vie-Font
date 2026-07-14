@@ -9,7 +9,7 @@ A (poorly-made) font, based on the album covers of the Coldplay album 'Viva La V
 *yes viva is a typo in some places, I meant vive then*
 
 ## Usage
-- Download the `ViveLaVie-Regular.otf` or `ViveLaVie-Regular.ttf` files.
+- Download the `ViveLaVie-Regular.otf` or `ViveLaVie-Regular.ttf` files under the releases.
 
 Made for Hack Club's [Typeface](https://typeface.hackclub.com) program.
 
